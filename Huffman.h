@@ -13,11 +13,11 @@ namespace HuffmanCoding {
 	class Node{
 	public:
 		char		letter;
-		int			frequency;
+		int		frequency;
 		bool		leaf;
 		Node		*left;
 		Node		*right;
-		std::string code;
+		std::string 	code;
 
 		Node();
 		Node(Node* left, Node* right);
