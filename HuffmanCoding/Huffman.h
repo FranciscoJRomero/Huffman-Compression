@@ -13,7 +13,7 @@ namespace HuffmanCoding {
 	class Node{
 	public:
 		char		letter;
-		int			frequency;
+		int		frequency;
 		bool		leaf;
 		Node		*left;
 		Node		*right;
